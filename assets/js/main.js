@@ -20,23 +20,23 @@ const swiperslider = new Swiper('.hero_container', {
     speed: 700,
     grabCursor: true,
 
-    // effect: 'cube',
-    // cubeEffects:{
-    //     shadow: true,
-    //     slideShadows: true,
-    //     shadowOffset: 20,
-    //     shadowScale: 0.9,
-    // }
-
-    effect: "coverflow",
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
+    effect: 'cube',
+    cubeEffects:{
+        shadow: true,
         slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.9,
+    }
+
+//     effect: "coverflow",
+//     centeredSlides: true,
+//     slidesPerView: "auto",
+//     coverflowEffect: {
+//         rotate: 50,
+//         stretch: 0,
+//         depth: 100,
+//         modifier: 1,
+//         slideShadows: true,
     },
     keyboard: {
       enable: true,
