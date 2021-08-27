@@ -37,7 +37,8 @@ const swiperslider = new Swiper('.hero_container', {
 //         depth: 100,
 //         modifier: 1,
 //         slideShadows: true,
-    },
+//     },
+     
     keyboard: {
       enable: true,
     },
